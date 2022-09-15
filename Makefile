@@ -29,5 +29,5 @@ test-acceptance:
 
 test-all: test test-acceptance
 
-run: build
+run: m
 	java -jar ./build/libs/LevelUpGame-0.0.1-SNAPSHOT.jar
