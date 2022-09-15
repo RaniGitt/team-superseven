@@ -50,6 +50,7 @@ public class GameController {
     }
 
     public void setCharacterPosition(Point point) {
+
     }
 
 }
