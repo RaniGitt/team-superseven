@@ -13,7 +13,7 @@ Scenario Outline:: Move in a direction
     And  the character is now at position with YCoordinates <endingPositionY>
     Examples:
         | startingpostionX | startingpositionY | direction | endingPositionX | endingPositionY |
-        | 0 | 0 | NORTH | 0 | 1 |
-        | 0 | 0 | SOUTH | 0 | 1 |
+        | 5 | 5 | NORTH | 5 | 6 |
+        | 2 | 2 | SOUTH | 1 | 2 |
         
 
