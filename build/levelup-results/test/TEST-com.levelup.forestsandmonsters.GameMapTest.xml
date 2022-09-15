@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.levelup.forestsandmonsters.GameMapTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2022-09-15T20:47:04" hostname="f3c17c23c0f6" time="0.018">
+  <properties/>
+  <testcase name="calculatePositionForNorthWhenOnBoundary" classname="com.levelup.forestsandmonsters.GameMapTest" time="0.006"/>
+  <testcase name="calculatePositionForEastWhenOnBoundary" classname="com.levelup.forestsandmonsters.GameMapTest" time="0.0"/>
+  <testcase name="calculatePositionForWestWhenInMiddleOfMap" classname="com.levelup.forestsandmonsters.GameMapTest" time="0.001"/>
+  <testcase name="calculatePositionForWestWhenOnBoundary" classname="com.levelup.forestsandmonsters.GameMapTest" time="0.001"/>
+  <testcase name="calculatePositionForNorthWhenInMiddleOfMap" classname="com.levelup.forestsandmonsters.GameMapTest" time="0.001"/>
+  <testcase name="initializationCreatesPositionsWithCorrectCoordinates" classname="com.levelup.forestsandmonsters.GameMapTest" time="0.0"/>
+  <testcase name="initialize100Map" classname="com.levelup.forestsandmonsters.GameMapTest" time="0.001"/>
+  <testcase name="isPositionValidIsFalseForInValidPosition" classname="com.levelup.forestsandmonsters.GameMapTest" time="0.0"/>
+  <testcase name="calculatePositionForSouthWhenInMiddleOfMap" classname="com.levelup.forestsandmonsters.GameMapTest" time="0.001"/>
+  <testcase name="isPositionValidIsTrueForValidPosition" classname="com.levelup.forestsandmonsters.GameMapTest" time="0.001"/>
+  <testcase name="calculatePositionForEastWhenInMiddleOfMap" classname="com.levelup.forestsandmonsters.GameMapTest" time="0.0"/>
+  <testcase name="calculatePositionForSouthWhenOnBoundary" classname="com.levelup.forestsandmonsters.GameMapTest" time="0.002"/>
+  <system-out><![CDATA[currentosition.coordinates.x2
+currentosition.coordinates.y9
+currentosition.coordinates.x9
+currentosition.coordinates.y3
+currentosition.coordinates.x1
+currentosition.coordinates.y2
+currentosition.coordinates.x0
+currentosition.coordinates.y5
+currentosition.coordinates.x1
+currentosition.coordinates.y2
+currentosition.coordinates.x1
+currentosition.coordinates.y2
+currentosition.coordinates.x1
+currentosition.coordinates.y2
+currentosition.coordinates.x2
+currentosition.coordinates.y0
+newPosition.coordinates.x0
+newPosition.coordinates.y0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

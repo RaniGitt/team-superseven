@@ -34,6 +34,7 @@ public class Character {
 
     public void enterMap(GameMap map) {
         this.map=map;
+        this.currentPosition = map.startingPosition;
     }
     
 }

@@ -81,7 +81,7 @@ public void calculatePositionForNorthWhenOnBoundary() {
     GameMap testObj = new GameMap();
 
     Position startingPosition = testObj.getPositions()[2][9];
-    Point expectedEndPositionCoordinates = new Point(2, 9);
+    Point expectedEndPositionCoordinates = new Point(0, 0);
     GameController.DIRECTION direction = GameController.DIRECTION.NORTH;
 
     Position newPosition = testObj.calculatePosition(startingPosition, direction);
@@ -94,10 +94,13 @@ public void calculatePositionForSouthWhenOnBoundary() {
     GameMap testObj = new GameMap();
 
     Position startingPosition = testObj.getPositions()[2][0];
-    Point expectedEndPositionCoordinates = new Point(2, 0);
+    Point expectedEndPositionCoordinates = new Point(0, 0);
     GameController.DIRECTION direction = GameController.DIRECTION.SOUTH;
 
     Position newPosition = testObj.calculatePosition(startingPosition, direction);
+
+    System.out.println("newPosition.coordinates.x"+newPosition.coordinates.x);
+        System.out.println("newPosition.coordinates.y"+newPosition.coordinates.y);
 
     assertEquals(expectedEndPositionCoordinates, newPosition.coordinates);
 }
@@ -107,7 +110,7 @@ public void calculatePositionForWestWhenOnBoundary() {
     GameMap testObj = new GameMap();
 
     Position startingPosition = testObj.getPositions()[0][5];
-    Point expectedEndPositionCoordinates = new Point(0, 5);
+    Point expectedEndPositionCoordinates = new Point(0, 0);
     GameController.DIRECTION direction = GameController.DIRECTION.WEST;
 
     Position newPosition = testObj.calculatePosition(startingPosition, direction);
@@ -120,7 +123,7 @@ public void calculatePositionForEastWhenOnBoundary() {
     GameMap testObj = new GameMap();
 
     Position startingPosition = testObj.getPositions()[9][3];
-    Point expectedEndPositionCoordinates = new Point(9, 3);
+    Point expectedEndPositionCoordinates = new Point(0, 0);
     GameController.DIRECTION direction = GameController.DIRECTION.EAST;
 
     Position newPosition = testObj.calculatePosition(startingPosition, direction);

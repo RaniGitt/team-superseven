@@ -37,6 +37,10 @@ public class GameControllerTest {
     @Test
     public void test_StartGame()
     {
+        GameController testObj = new GameController();
+                testObj.startGame();
+                assertNotNull(testObj.map);
+                
 
     }
 }

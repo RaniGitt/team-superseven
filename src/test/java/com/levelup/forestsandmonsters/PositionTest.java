@@ -11,6 +11,6 @@ public class PositionTest {
     public void initializationSetsCoordinates(){
         Position positionObject = new Position(0,5);
         assertEquals(0, positionObject.coordinates.x);
-        assertEquals(4, positionObject.coordinates.y);
+        assertEquals(5, positionObject.coordinates.y);
     }
 }

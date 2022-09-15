@@ -22,9 +22,12 @@ public class GameMap {
         return positions;
     }
 
-    public Position calculatePosition(Position startingPosition, DIRECTION direction) {
-        int calculatedX = startingPosition.coordinates.x;
-        int calculatedY = startingPosition.coordinates.y;
+    public Position calculatePosition(Position currentosition, DIRECTION direction) {
+       
+        System.out.println("currentosition.coordinates.x"+currentosition.coordinates.x);
+        System.out.println("currentosition.coordinates.y"+currentosition.coordinates.y);
+        int calculatedX = currentosition.coordinates.x;
+        int calculatedY = currentosition.coordinates.y;
 
         if(direction.equals(DIRECTION.NORTH)){
             calculatedY = calculatedY + 1;

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.levelup.forestsandmonsters.CharacterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-09-15T20:47:04" hostname="f3c17c23c0f6" time="0.003">
+  <properties/>
+  <testcase name="test_Move_With_Empty_Direction" classname="com.levelup.forestsandmonsters.CharacterTest" time="0.0"/>
+  <testcase name="test_getPostion" classname="com.levelup.forestsandmonsters.CharacterTest" time="0.002"/>
+  <testcase name="test_Move_With_All_Patarameter" classname="com.levelup.forestsandmonsters.CharacterTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

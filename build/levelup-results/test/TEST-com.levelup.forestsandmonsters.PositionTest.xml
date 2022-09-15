@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.levelup.forestsandmonsters.PositionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-15T20:47:04" hostname="f3c17c23c0f6" time="0.001">
+  <properties/>
+  <testcase name="initializationSetsCoordinates" classname="com.levelup.forestsandmonsters.PositionTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
