@@ -52,7 +52,7 @@ public class GameController {
 
     public void setCharacterPosition(Point point) {
         
-        status.currentPosition = point;
+        //status.currentPosition = point;
         
     }
 
