@@ -4,7 +4,7 @@ import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 
 import com.levelup.forestsandmonsters.fake.FakeCharacter;
-import com.levelup.forestsandmonsters.fake.FakeGamecontroller;
+
 
 public class GameControllerTest {
 
