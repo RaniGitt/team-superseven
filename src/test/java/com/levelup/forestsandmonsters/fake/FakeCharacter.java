@@ -1,6 +1,6 @@
 package com.levelup.forestsandmonsters.fake;
 
-import com.levelup.forestsandmonsters.cli.Character;
+import com.levelup.forestsandmonsters.Character;
 
 public class FakeCharacter extends Character {
 
