@@ -7,4 +7,5 @@ public class FakeCharacter extends Character {
     public void move(Object object) {
     }
 
+  
 }

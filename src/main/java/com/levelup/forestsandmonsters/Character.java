@@ -7,6 +7,14 @@ public class Character {
     private String name;
     private Position currentPosition;
     private GameMap map;
+
+    public Character(String name2) {
+        this.name=name2;
+    }
+
+    public Character() {
+       }
+
     public String getName() {
         return this.name;
     }

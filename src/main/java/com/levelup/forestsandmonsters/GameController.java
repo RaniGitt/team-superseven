@@ -6,7 +6,7 @@ public class GameController {
     // TODO: If your stakeholder wants to call this CHARACTER, change var name for
     // low representational gap
     static final String DEFAULT_CHARACTER_NAME = "Character";
-
+    Character character;
     public class GameStatus {
         // TODO: Add other status data
         public String characterName = DEFAULT_CHARACTER_NAME;
@@ -27,11 +27,8 @@ public class GameController {
     // Pre-implemented to demonstrate ATDD
     // TODO: Update this if it does not match your design
     public void createCharacter(String name) {
-        if (name != null && !name.equals("")) {
-            status.characterName = name;
-        } else {
-            status.characterName = DEFAULT_CHARACTER_NAME;
-        }
+         character = new Character(name);
+        
     }
 
     public void startGame() {
