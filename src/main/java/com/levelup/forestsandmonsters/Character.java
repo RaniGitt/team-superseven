@@ -1,5 +1,7 @@
 package com.levelup.forestsandmonsters;
 
+import java.awt.Point;
+
 import com.levelup.forestsandmonsters.GameController.DIRECTION;
 
 public class Character {
@@ -20,8 +22,15 @@ public class Character {
     }
 
     public void move(DIRECTION direction) {
+        System.out.println("before >>>>>"+currentPosition.coordinates.x);
+        System.out.println("before >>>>>"+currentPosition.coordinates.y);
+
+
         if(direction!=null)
         currentPosition=map.calculatePosition(currentPosition,direction);
+
+        System.out.println(">>>>>"+currentPosition.coordinates.x);
+        System.out.println(">>>>>"+currentPosition.coordinates.y);
     }
 
     public void setName(String name) {
@@ -36,5 +45,7 @@ public class Character {
         this.map=map;
         this.currentPosition = map.startingPosition;
     }
+
+    
     
 }

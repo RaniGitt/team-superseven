@@ -38,7 +38,7 @@ public class CharacterTest {
         testObj.setName("TeamSeven");
         FakeGameMap fakeMap=new FakeGameMap();
         testObj.enterMap(fakeMap);
-        testObj.move(GameController.DIRECTION.NORTH);
+        testObj.move(GameController.DIRECTION.WEST);
         assertNotNull(testObj.getPosition()); 
     }
     
