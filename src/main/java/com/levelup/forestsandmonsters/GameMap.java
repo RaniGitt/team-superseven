@@ -59,5 +59,9 @@ public class GameMap {
             return true;
     }
 
+    public int getTotalPositions() {
+        return numPositions;
+    }
+
     
 }

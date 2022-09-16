@@ -89,4 +89,8 @@ public class GameController {
        // this.character.setCharacterPosition(point);
     }
 
+    public int getTotalPositions() {
+        return this.map.getTotalPositions();
+    }   
+
 }
