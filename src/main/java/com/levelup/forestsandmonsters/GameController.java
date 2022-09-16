@@ -8,6 +8,10 @@ public class GameController {
     static final String DEFAULT_CHARACTER_NAME = "Character";
     Character character;
     GameMap map;
+    public GameMap getMap() {
+        return map;
+    }
+
     public class GameStatus {
         // TODO: Add other status data
         public String characterName = DEFAULT_CHARACTER_NAME;
